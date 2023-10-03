@@ -1,0 +1,73 @@
+.container{
+    margin-top: 15%;
+    
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%;
+    background-color: #ff73008c;
+    align-items: center; 
+    border-radius: 8px;
+    padding: 20px; 
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card1 {
+    width: 33.33%;
+    height: 250px;
+    padding: 0 10px 0 10px;
+    background-color: #a0a832;
+
+}
+
+
+.serviceImage01 {
+    width: 33.33%;
+    height: 250px;
+    background-image: url('https://www.pzalab.com/wp-content/uploads/2020/08/blog-post_02.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: auto 100%;
+
+}
+
+.serviceImage02 {
+    width: 33.33%;
+    height: 250px;
+    background-image: url('https://www.pulsetoday.co.uk/wp-content/uploads/2021/08/blood-test-gloves-diagnosis.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: auto 100%;
+}
+
+.serviceImage03 {
+    width: 33.33%;
+    height: 250px;
+    background-image: url('https://www.neoteryx.com/hubfs/shutterstock_293967086%20%282%29.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: auto 100%;
+}
+
+
+.serviceTopic{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #fbfca4;
+  
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    color: #f5f5d0;
+}

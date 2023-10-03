@@ -1,0 +1,108 @@
+
+
+.container{
+    margin-top: 10%;
+    
+    width: 450px;
+    height: 450px;
+    margin-left: 35%;
+    background-color: #ff73008c;
+    align-items: center; 
+    border-radius: 8px;
+    padding: 20px; 
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.inputBox{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.inputBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.payment{
+   width: 450x;
+   height: 270px;
+   border-radius: 8px;
+   background-color: #ff73009e;  
+   display: flex;
+   flex-direction: column;
+   padding: 4px;
+   justify-content: space-around ;
+   margin-bottom: 4%;
+   margin-top: 18%;
+   padding: 20px;
+   align-items: center;
+   
+   
+  
+}
+.payment h3{
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+}
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.selection select{
+    padding: 1px 10px;
+}
+
+
+.cards img{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 4px;
+}
+
+#submitBtn{
+    margin-left: 23%;
+    border-radius: 10px;
+    color: #ff0000;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: fantasy;
+    
+}
+
+
+
+
+
